@@ -59,8 +59,8 @@ function App() {
   return (
     <div>
       <main className="max-w-2xl mx-auto px-4 py-8">
-        <h1 className="uppercase text-8xl text-center font-light bg-gradient-to-br from-purple-100 to-white-100 bg-clip-text text-transparent from-30%">Bit Bargain</h1>
-        <h2 className="text-2xl text-center font-light ">Find The Cheapest BTC</h2>
+        <h1 className="uppercase text-6xl text-center font-light bg-gradient-to-br from-purple-100 to-white-100 bg-clip-text text-transparent from-30%">Bit Bargain</h1>
+        <h2 className="text-1xl text-center font-light ">Find The Cheapest BTC</h2>
         <div className="flex justify-center mt-6">
           <AmountInput
             value={amount}
