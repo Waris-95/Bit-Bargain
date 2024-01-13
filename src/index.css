@@ -4,19 +4,23 @@
 
 body{
     background-color: black;
-  color: white; 
-  background-image: radial-gradient(at 50% 50%, #272727, rgb(5, 5, 5));
-  height: 100vh;
+    color: white; 
+    background-image: radial-gradient(at 50% 50%, #272727, rgb(5, 5, 5));
+    height: 100vh;
+    background-size: 300%; /* make the gradient larger than the body */
+    animation: from-left-to-right 8s ease-in-out infinite alternate-reverse; /* animate the gradient back and forth */
 }
 
 @keyframes from-left-to-right{
     0%{
-        translate: -100%;
+        background-position: 0% 0%; /* start from the top left corner */
     }
     100%{
-        translate: 100%;
+        background-position: 200% 200%; /* end at the bottom right corner */
     }
 }
+
+
 
 .skeleton-animation{
     animation: from-left-to-right 2s infinite;
