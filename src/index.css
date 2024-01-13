@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+  color: white; 
+  background-image: radial-gradient(at 50% 50%, #272727, rgb(5, 5, 5));
+  height: 100vh;
+}
+
+@keyframes from-left-to-right{
+    0%{
+        translate: -100%;
+    }
+    100%{
+        translate: 100%;
+    }
+}
+
+.skeleton-animation{
+    animation: from-left-to-right 2s infinite;
+}
