@@ -93,10 +93,6 @@ function App() {
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
         <p className="text-sm">
           Made By Abdul Waris:
           <a href="https://github.com/Waris-95" className="ml-2 text-blue-500" target="_blank" rel="noopener noreferrer">GitHub</a>
