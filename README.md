@@ -1,4 +1,4 @@
-# React + TypeScript + Vite + Darklang
+# React + TypeScript + Tailwind
 
 An API project that grabs the cheapest live BTC value from across 4 providers. Made with TypeScript & React, to improve my skills in the back-end.
 
